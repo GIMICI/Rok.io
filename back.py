@@ -1,6 +1,7 @@
 import time
 import os
 import sys
+import linux
 
 def progress_bar():
     for i in range(1,101):
@@ -26,19 +27,13 @@ def ssh():
     print("Debian GNU/Linux comes with ABSOLUTELY NO WARNTY, to the extent")
     print("permitted by applicable law.")
     print("Last login: Fri Aug 12 22:16:13 2022 from 36.152.44.96")
-    print("root@VM-0-8-debian:~#")
     while True:
-        qwq = input("root@VM-0-8-debian:~#")
-        if qwq == "exit":
-            break
-        else:
-            continue
+        linux.qw()
 
-    
 
 
 print("+--------------------+")
-print("|   百灵公共后台v1.0  |")
+print("|   百灵公共后台v3.0  |")
 print("+--------------------+")
 print("请选择要进行的操作:")
 print("1.连接后台")
@@ -49,8 +44,6 @@ while True:
     a = input(">>>")
     if a == "1":
         progress_bar()
-        print("宁以为这里能连？当然不行！")
-        time.sleep(1)
         ssh()       
     elif a=="2":
         aprogress_bar()
