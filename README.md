@@ -1,2 +1,3 @@
-#  bat.io
-https://github.com/GIMICI/bat.io.wiki.git
+#  Rok.io
+
+https://github.com/GIMICI/Rok.io/tree/main
